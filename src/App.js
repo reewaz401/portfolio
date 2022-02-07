@@ -8,18 +8,21 @@ import Home from './components/home/Home'
 import TopButton from './components/topButton/TopButton'
 
 function App() {
+
   return (
+    
     <div className="App">
       <Home />
-      <About />
+      <About/>
       <Experience />
       {/* <Portfolio/> */}
-      {/* <Projects /> */}
+
       <Contact />
       <Footer />
       <TopButton />
     </div>
   )
 }
+
 
 export default App
