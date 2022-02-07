@@ -1,0 +1,38 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "skillName": "App Development",
+      "amount": "90"
+    },
+    {
+      "id": 1,
+      "skillName": "React.js",
+      "amount": "70"
+    },
+    {
+      "id": 2,
+      "skillName": "Photoshop",
+      "amount": "70"
+    },
+    { "id": 3, "skillName": "Javascript", "amount": "85" },
+    {
+      "id": 4,
+      "skillName": "Node.js",
+      "amount": "80"
+    },
+    {
+      "id": 5,
+      "skillName": "REST",
+      "amount": "75"
+    },
+    { "id": 6, "skillName": "IOS Native Developmet", "amount": "70" },
+    { "id": 7, "skillName": "Swift", "amount": "70" },
+    { "id": 7, "skillName": "C/C++", "amount": "70" },
+    {
+      "id": 8,
+      "skillName": "Backend",
+      "amount": "80"
+    }
+  ]
+}

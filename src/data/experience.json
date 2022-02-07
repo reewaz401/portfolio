@@ -1,0 +1,40 @@
+{
+  "experience": [
+ 
+    {
+      "id": 1,
+      "link": "https://www.psykinetic.com",
+      "company": "Vianet Communications",
+      "logo": "via",
+      "title": "Customer Service Representation",
+      "dateFrom": "August 2018",
+      "dateTo": "Feburary 2019",
+      "info": [
+        "Interaction with customer to provide appropriate solutions and alternatives within the time limits",
+        "Assistant technician"
+      ],
+      "stack": ["C++", "UE4", "VR", "Web Design"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
+      "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
+    },
+    {
+      "id": 2,
+      "link": "https://www.cactuscan.com",
+      "company": "Saral Lagani",
+      "logo": "sarallagani",
+      "title": "Development Lead",
+      "dateFrom": "2020",
+      "dateTo": "Current",
+      "info": [
+        "Co-founding Saral Lagani in 2020 has led to many exciting projects with incredible customers.",
+        "Web design, marketing, media and customer engagement."
+      ],
+      "stack": ["App Development","React", "Marketing", "Design", "UI/UX"],
+      "logowidth": 80,
+      "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
+      "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
+    }
+    
+  ]
+}
