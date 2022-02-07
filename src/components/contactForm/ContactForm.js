@@ -133,9 +133,8 @@ const ContactForm = () => {
         {status === 'SUCCESS' ? (
           <p className="email-success">Thanks!</p>
         ) : (
-          <Button className={classes.submit} variant="contained">
-      <a href='mailto:reewazmaskey@gmail.com' target='_blank'>Submit</a>
-            
+          <Button className={classes.submit} type="submit" variant="contained">
+            Submit
           </Button>
         )}
         {status === 'ERROR' && <p>Ooops! There was an error.</p>}
