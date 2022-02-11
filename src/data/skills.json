@@ -7,32 +7,29 @@
     },
     {
       "id": 1,
-      "skillName": "React.js",
-      "amount": "70"
+      "skillName": "Web Development",
+      "amount": "80"
     },
     {
       "id": 2,
-      "skillName": "Photoshop",
+      "skillName": "UI/UX",
       "amount": "70"
     },
     { "id": 3, "skillName": "Javascript", "amount": "85" },
+    { "id": 7, "skillName": "Photoshop", "amount": "70" },
     {
       "id": 4,
-      "skillName": "Node.js",
-      "amount": "80"
+      "skillName": "Front-end",
+      "amount": "70"
     },
     {
       "id": 5,
-      "skillName": "REST",
-      "amount": "75"
+      "skillName": "Back-end",
+      "amount": "80"
     },
     { "id": 6, "skillName": "IOS Native Developmet", "amount": "70" },
     { "id": 7, "skillName": "Swift", "amount": "70" },
-    { "id": 7, "skillName": "C/C++", "amount": "70" },
-    {
-      "id": 8,
-      "skillName": "Backend",
-      "amount": "80"
-    }
+    { "id": 7, "skillName": "C/C++", "amount": "70" }
+   
   ]
 }

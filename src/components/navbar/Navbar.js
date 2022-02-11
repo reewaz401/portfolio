@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './Navbar.css'
 import { Link } from 'react-scroll'
 import MobileNav from '../mobileNav/MobileNav'
+import './Navbar.css'
 
 const Navbar = () => {
   const [mobilenavVisible, setMobilenavVisible] = useState(false)
@@ -30,6 +30,11 @@ const Navbar = () => {
         <div className="navlink-wrapper">
           <Link to="experience" spy={true} smooth={true} duration={500}>
             EXPERIENCE
+          </Link>
+        </div>
+        <div className="navlink-wrapper">
+          <Link to="projects" spy={true} smooth={true} duration={500}>
+            PROJECTS
           </Link>
         </div>
         {/* <div className="navlink-wrapper">
