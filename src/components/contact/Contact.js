@@ -8,6 +8,7 @@ import Section from '../section/Section'
 import './Contact.css'
 
 const Contact = () => {
+  function endEmail(e) {}
   return (
     <Section title="Contact">
       <ContactForm />

@@ -1,9 +1,9 @@
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles'
 import TextField from '@material-ui/core/TextField'
-import React, { useState } from 'react'
+import emailjs from 'emailjs-com'
+import React, { useRef, useState } from 'react'
 import './ContactForm.css'
-
 const useStyles = makeStyles((theme) => ({
   email: {
     '& > *': {
@@ -65,6 +65,31 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const ContactForm = () => {
+  const form = useRef()
+  function sendEmail(e) {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_avjjfgf',
+        'template_wfskfl5',
+        form.current,
+        'user_GdDmd2UoV9NC7ufCijn2l'
+      )
+      .then(
+        (result) => {
+          setEmailText('')
+          setMessageText('')
+          form.current.reset()
+          setStatus('SUCCESS')
+        },
+        (error) => {
+          setStatus('ERROR')
+          console.log(error.text)
+        }
+      )
+    form.current.reset()
+  }
   const [status, setStatus] = useState('')
   const [emailText, setEmailText] = useState('')
   const [messageText, setMessageText] = useState('')
@@ -105,8 +130,9 @@ const ContactForm = () => {
   return (
     <div className="contact-form-wrapper">
       <form
+        ref={form}
         className="contact-form"
-        onSubmit={submitForm}
+        onSubmit={sendEmail}
         action="https://formspree.io/mvolplar"
         method="POST"
       >

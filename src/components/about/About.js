@@ -23,8 +23,9 @@ const About = () => {
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              I'm a software engineer focusing on App Development, Web Development and having emerging
-              interest in tech such as VR, AR and Blockchain.
+              I'm a software engineer focusing on App Development, Web
+              Development and having emerging interest in tech such as VR, AR
+              and Blockchain.
             </p>
             <p>
               <span role="img" aria-label="lightning">
@@ -98,6 +99,11 @@ const About = () => {
                 ></path>
               </svg>
               <p>Paris, France</p>
+            </div>
+            <div className="cv-box">
+              <a href="/assets/cvReewazMaskey.pdf" target="_blank" download>
+                <button> Download My CV</button>
+              </a>
             </div>
           </div>
         </Fade>
