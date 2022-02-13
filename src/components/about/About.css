@@ -31,6 +31,9 @@
   border-top: 1px solid white;
   width: 70%;
 }
+.cv-wrapper {
+  display: flex;
+}
 
 .cv-box {
   display: flex;
