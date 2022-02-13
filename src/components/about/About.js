@@ -100,10 +100,21 @@ const About = () => {
               </svg>
               <p>Paris, France</p>
             </div>
-            <div className="cv-box">
-              <a href="/assets/cvReewazMaskey.pdf" target="_blank" download>
-                <button> Download My CV</button>
-              </a>
+            <div className="cv-wrapper">
+              <div className="cv-box">
+                <a
+                  href="/assets/cvReewazMaskeyeng.pdf"
+                  target="_blank"
+                  download
+                >
+                  <button> Download My CV</button>
+                </a>
+              </div>
+              <div className="cv-box">
+                <a href="/assets/cvReewazMaskey.pdf" target="_blank" download>
+                  <button> Télécharger Mon CV</button>
+                </a>
+              </div>
             </div>
           </div>
         </Fade>
