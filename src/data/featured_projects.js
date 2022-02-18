@@ -24,6 +24,20 @@ export const featured_projects = [
   },
   {
     id: 1,
+    name: 'Restaurant Site',
+    logo: `${logoPath}restaurant.png`,
+    img: `${imgPath}restaurant.png`,
+    link: 'https://reewazrestaurant.netlify.app/',
+    description:
+      'A responsive web site that introduces the menu of the restaurants including specials. Integrated with emmbeded google map that help customer get direction exactly where restaurant is located.',
+    colour: 'linear-gradient(to top, rgb(0, 122, 65),rgb(37, 207, 108))',
+    languages: ['HTML', 'CSS', 'Javascript', 'JQuery'],
+    task: ['Front-End'],
+
+    puglins: [],
+  },
+  {
+    id: 2,
     logo: `${logoPath}meme.png`,
     name: 'Meme Bhahadur',
     img: `${imgPath}memebahadur1.png`,
@@ -37,7 +51,7 @@ export const featured_projects = [
     puglins: ['Flutter'],
   },
   {
-    id: 2,
+    id: 3,
     name: 'Trabeely',
     link: 'https://www.trabeely.com/',
     logo: `${logoPath}trabeely.jpg`,
